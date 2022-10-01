@@ -58,7 +58,7 @@ public class Actor {
 
 	@Override
 	public String toString() {
-		return "Actor id = " + id + ", first + alst Name = " + firstName + " " + lastName + ", films starred in = " + films + ".";
+		return  firstName + " " + lastName;
 	}
 
 	@Override

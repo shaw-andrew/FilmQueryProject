@@ -17,6 +17,15 @@ public class Film {
 	private double replacementCost;
 	private String rating;
 	private String specialFeatures;
+	private String language;
+
+	public String getLanguage() {
+		return language;
+	}
+
+	public void setLanguage(String language) {
+		this.language = language;
+	}
 
 	private Film() {
 	}
@@ -177,10 +186,9 @@ public class Film {
 
 	@Override
 	public String toString() {
-		return "Film [actors=" + actors + ", id=" + id + ", title=" + title + ", description=" + description
-				+ ", releaseYear=" + releaseYear + ", languageId=" + languageId + ", rentalDuration=" + rentalDuration
-				+ ", rentalRate=" + rentalRate + ", length=" + length + ", replacementCost=" + replacementCost
-				+ ", rating=" + rating + ", specialFeatures=" + specialFeatures + "]";
+		return "Title: " + title + " \nDescription: " + description
+				+ " \nRelease Year: " + releaseYear + " \nLanguage: " + language 
+				+ " \nRating: " + rating + ".";
 	}
 
 }
