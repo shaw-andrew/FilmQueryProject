@@ -42,7 +42,7 @@ public class FilmQueryApp {
 				if (outputId != null) {
 					System.out.println();
 					System.out.println(outputId);
-					System.out.print("Starring:");
+					System.out.print("Starring: ");
 					System.out.println(outputId.getActors().toString().replace("[", "").replace("]", ""));
 					System.out.println();
 					printMenu();
